@@ -1,31 +1,33 @@
-# 💿 Criando um Pendrive Bootável com Linux via Script Bash
+# 💿 Creating a Bootable Linux USB via Bash Script
 
-Este é um pequeno script em Bash que permite criar um pendrive bootável com uma ISO Linux diretamente pelo terminal, de forma rápida e prática, sem a necessidade de programas externos.  
+This is a small Bash script that allows you to create a bootable USB drive with a Linux ISO directly from the terminal, quickly and easily, without the need for external programs.
 
-⚠️ **Aviso:** Este script é para fins de prática de Bash scripting. É básico, sem verificação de memória ou detecção automática de dispositivos. Use com cuidado e por sua conta e risco.
+⚠️ **Warning:** This script is intended for Bash scripting practice. It is basic, without memory checks or automatic device detection. Use at your own risk.
 
-## ⚡ Funcionalidades
+## ⚡ Features
 
-- Lista os dispositivos removíveis disponíveis
-- Permite escolher o pendrive que será apagado
-- Limpa o pendrive e grava a ISO
-- Finaliza e ejeta o pendrive automaticamente
+* Lists available removable devices
+* Allows you to choose the USB drive to be erased
+* Clears the USB drive and writes the ISO
+* Automatically ejects the USB drive after completion
 
-> ⚠️ Todos os dados do pendrive serão apagados!
+> ⚠️ All data on the USB drive will be erased!
 
-## 📝 Como usar
+## 📝 How to Use
 
-1. Clone este repositório ou baixe o script.
-2. Dê permissão de execução:
+1. Clone this repository or download the script.
+2. Give execution permission:
    ```bash
    chmod +x bootable-usb.sh
-3. Execute:
-    ```bash
-    ./bootable-usb.sh
-## Siga as instruções:
+   ```
+3. Run:
+   ```bash
+   ./bootable-usb.sh
+   ```
+## Follow the instructions:
 
-- Informe o nome do pendrive (ex: sdb)
-- Confirme que deseja apagar o pendrive
-- Informe o caminho completo da ISO
+* Enter the name of the USB drive (e.g., sdb)
+* Confirm that you want to erase the USB drive
+* Enter the full path to the ISO file
 
-> O script vai apagar o pendrive, gravar a ISO e ejetá-lo ao final.
+> The script will erase the USB drive, write the ISO, and eject it at the end.
